@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>cuestionario</title>
+	<link rel="stylesheet" type="text/css" href="style4.css">
+</head>
+<body>
+
+<div class="container">
+	<div class="flex-container">
+		
+            <div class="flex-item cuestionario">
+                <h4>¿Qué es html?</h4>
+                <input type="checkbox" id="R11" value="respuesta incorrecta." name="r1" tabIndex="1" onClick="ckChange(this)">Un paradígma de programación<br>
+                <input type="checkbox" id="R12" value="respuesta incorrecta." name="r1" tabIndex="1" onClick="ckChange(this)">Un framework<br>
+                <input type="checkbox" id="R13" value="respuesta correcta, es un un leguanje de etiquetas" name="r1" tabIndex="1" onClick="ckChange(this)">Un lenguaje de etiquetas<br>
+            </div>
+            <div class="flex-item cuestionario">
+                <h4>¿Qué es CSS?</h4>
+                <input type="checkbox" id="R21" value="respuesta correcta, es un lenguaje de estilos para html " name="r2" tabIndex="1" onClick="ckChange(this)">Un lenguaje de estilos para html<br>
+                <input type="checkbox" id="R22" value="respuesta incorrecta" name="r2" tabIndex="1" onClick="ckChange(this)">Un lenguaje para programar backend<br>
+                <input type="checkbox" id="R23" value="respuesta incorrecta" name="r2" tabIndex="1" onClick="ckChange(this)">Un protocolo de internet<br>
+            </div>
+            <div class="flex-item cuestionario">
+                <h4 >¿Es cierto que javascript es java en la web?</h4>
+                <input type="checkbox" id="R31" value="respuesta incorrecta" name="r3" tabIndex="1" onClick="ckChange(this)">Verdadero<br>
+                <input type="checkbox" id="R32" value="respuesta correcta" name="r3" tabIndex="1" onClick="ckChange(this)">Falso<br>
+            </div>
+            <div class="flex-item cuestionario">
+                <h4 >¿React es un framework para desarrollar frontend?</h4>
+                <input type="checkbox" id="R41" value="respuesta correcta" name="r4" tabIndex="1" onClick="ckChange(this)">Verdadero<br>
+                <input type="checkbox" id="R42" value="respuesta incorrecta" name="r4" tabIndex="1" onClick="ckChange(this)">Falso<br>
+            </div>
+            <div class="flex-item cuestionario">
+                <h4 >¿Se puede utilizar python para programar backend?</h4>
+                <input type="checkbox" id="R51" value="respuesta correcta" name="r5" tabIndex="1" onClick="ckChange(this)">Si<br>
+                <input type="checkbox" id="R52" value="respuesta incorrecta" name="r5" tabIndex="1" onClick="ckChange(this)">No<br>
+            </div>
+    				
+    	<br><center>
+    		<button class="btn-form" id="responder">Enviar </button>
+    		<br><div class="resultados" id="result"></div></center><br><br>
+	</div>
+</div>
+
+
+<script type="text/javascript" src="app2.js"></script>
+</body>
+</html>
